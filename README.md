@@ -11,3 +11,5 @@ Interesting facts about them:
     Papa loves fashion and listening to Afro beats.
 
 Papa chose the MCDA program because he was interested about how powerful data is, during his undergrad and wanted to explore more on that. Bhavy, having dealt with huge amounts of data as part of his work, wanted to learn in depth about the data analytics domain. I chose MCDA beause it was a exact balance of software development and data analytics. I've had experience in creating reports out of data and learning a new and significant skill like software development excited me.
+
+
