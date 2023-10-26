@@ -2,14 +2,31 @@
 
 Hey! I'm Subhiksha, a computer science engineering graduate with 2 years of experience as a Data Warehouse Developer for a merchant banking client. My A# is A00473252 and you can reach me at Subhiksha.Ramasubramanian@smu.ca
 
-The topic that interests all 3 of us would be cooking. Papa thinks that cooking is fun and therapeutic. Bhavy likes how the right amount of seasoning in the dish can make it so delicious. I like the science that happens while cooking different ingredients together to make a complex meal. We all share a passion for cooking for ourselves. We also found out that we equally like the show FRIENDS show. Joey and Phoebe is one of the favourite combo of characters, because of the madness that spews out of their interactions. We love the thanksgiving episodes to bits.
+-------------------------------------------------------------------------------------------------------------------------------------
+#CSVFileParser - Assignment 1
+This is a simple CSV parser program that traverses through a directory of CSV files, reads data, rejects invalid rows and combines valid rows in an output CSV file(generated into "..\..\..\Output"). The rejected rows are logged in a log file(generated into "..\..\..\log") along with other details like total execution time, number of valid rows and number of skipped rows.
 
-I've paired up with Bhavy(#A00478485) from Mumbai and Papa(#A00477519) from Ghana. 
-
-Interesting facts about them:
-    Bhavy's wifi name is "Dal and Rice" and loves watching anime.
-    Papa loves fashion and listening to Afro beats.
-
-Papa chose the MCDA program because he was interested about how powerful data is, during his undergrad and wanted to explore more on that. Bhavy, having dealt with huge amounts of data as part of his work, wanted to learn in depth about the data analytics domain. I chose MCDA beause it was a exact balance of software development and data analytics. I've had experience in creating reports out of data and learning a new and significant skill like software development excited me.
+Variables	-	Purpose
+inputPath		the directory to be traversed
+outputFile		the Output.csv file that combines all the valid records
+logFile			the log.txt file that combines all the skipped records
 
 
+Validation Criteria:
+I used regular expressions to do basic validity check for the columns in the CSV files as follows
+
+	First Name should not be empty and contain only alphabets
+	Last Name should not be empty and contain only alphabets
+	Street Number should not be empty and contain only numerical
+	Street should not be empty and contain only alphabets
+	City should not be empty and contain only alphabets
+	Province should not be empty and contain only alphabets
+	Postal Code should not be empty and contain alphabets and numbers, 6 characters long.
+	Country should not be empty and contain only alphabets
+	Phone numbers should not be empty and contain only 10 digits
+	Email Address should not be empty and be n the valid format of subhi@smu.ca
+	
+	
+Assumptions:
+	The Date column to be added in the output file is of type String.
+	All the CSV files contain headers and are uniform across different files.
