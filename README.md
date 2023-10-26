@@ -14,7 +14,7 @@ Components of the solution:
 	DirWalker.cs 		Walks through the whole directory, file by file
 	Validation.cs		Specifies the validation criteria for the records
 	DataAttributes.cs	Specifies the columns present in the CSV file
-	Program.cs			Program that determines the valid and invalid records and then writes them into Output.csv and log.txt files respectively
+	Program.cs		Program that determines the valid and invalid records and then writes them into Output.csv and log.txt files respectively
 
 
 Variables	-	Purpose
