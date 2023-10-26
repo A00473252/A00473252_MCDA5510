@@ -17,7 +17,7 @@ Components of the solution:
 	Program.cs		Program that determines the valid and invalid records and then writes them into Output.csv and log.txt files respectively
 
 
-Variables	-	Purpose
+Variables and their	Purpose:
 
 
 	inputPath		the directory to be traversed
