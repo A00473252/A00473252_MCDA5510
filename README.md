@@ -4,7 +4,9 @@ Hey! I'm Subhiksha, a computer science engineering graduate with 2 years of expe
 
 -------------------------------------------------------------------------------------------------------------------------------------
 #CSVFileParser - Assignment 1
-This is a simple CSV parser program that traverses through a directory of CSV files, reads data, rejects invalid rows and combines valid rows in an output CSV file(generated into "..\..\..\Output"). The rejected rows are logged in a log file(generated into "..\..\..\log") along with other details like total execution time, number of valid rows and number of skipped rows.
+
+
+This is a simple CSV parser program that traverses through a directory of CSV files, reads data, rejects invalid rows and combines valid rows in an output CSV file(generated into "..\\..\\..\\Output"). The rejected rows are logged in a log file(generated into "..\\..\\..\log") along with other details like total execution time, number of valid rows and number of skipped rows.
 
 Components of the solution:
 DirWalker.cs 		Walks through the whole directory, file by file
